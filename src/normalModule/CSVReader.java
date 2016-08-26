@@ -44,9 +44,7 @@ private Pattern separatorPattern;
 			int ya;
 			int goo;
 			
-			
 			m = dataPattern.matcher(result);  
-			
 
 			if(m.find()){
 				string = m.group(1).replace('\\', '0').replace('/', '0'); //реплейсы для фикса сепараторов аля Tanyusha-style
